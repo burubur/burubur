@@ -6,7 +6,15 @@ class Project extends Component {
     state = {
         projects: [
             {
-                label: "anu",
+                label: "Mikrolokal",
+                url: "project-anu"
+            },
+            {
+                label: "Laundry Profile",
+                url: "project-anu"
+            },
+            {
+                label: "My Portfolio Website",
                 url: "project-anu"
             },
         ]
@@ -34,15 +42,15 @@ class Creativity extends Component {
             },
             {
                 label: "Film",
-                uri: "cr-music"
+                uri: "cr-film"
             },
             {
                 label: "WoodWorking",
-                uri: "cr-music"
+                uri: "cr-wood"
             },
             {
                 label: "CakeWorking",
-                uri: "cr-music"
+                uri: "cr-cake"
             },
         ]
     }
@@ -132,29 +140,33 @@ const CopyRight = () => {
     const author = "@burhanmubarok"
     const year = new Date().getFullYear()
     return (
-        <div style={{textAlign: "center"}}>
+        <div>
             Copyright {author} {year}
         </div>
     )
 }
 
 const Footer = () => (
-    <div className="footer-content">
-        <Row type="flex" gutter={24} justify="center">
-            <Col span={4}>
-                <Project />
-            </Col>
-            <Col span={4}>
-                <Creativity />
-            </Col>
-            <Col span={4}>
-                <MetaLink/>
-            </Col>
-            <Col span={4}>
-                <SocialMedia />
-            </Col>
-        </Row>
-        <CopyRight />
+    <div>
+        <div className="footer-metalink">
+            <Row type="flex" gutter={24} justify="center">
+                <Col span={4}>
+                    <Project />
+                </Col>
+                <Col span={4}>
+                    <Creativity />
+                </Col>
+                <Col span={4}>
+                    <MetaLink/>
+                </Col>
+                <Col span={4}>
+                    <SocialMedia />
+                </Col>
+            </Row>
+        </div>
+        <div className="footer-copyright">
+            <CopyRight />
+        </div>
     </div>
 )
 

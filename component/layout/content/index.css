@@ -1,0 +1,6 @@
+.content-box {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url("./../../../asset/image/bench-accounting-49909-unsplash.jpg");
+    background-size: cover;
+}

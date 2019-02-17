@@ -3,7 +3,9 @@ import { Layout, Menu } from "antd";
 import "./index.css"
 
 const Header = () => (
-    <Layout.Header>
+    <Layout.Header
+        className="transparent"
+    >
         <Brand />
         <Menus />
     </Layout.Header>
@@ -19,12 +21,13 @@ const Menus = () => (
     <div>
         <Menu
             mode="horizontal"
-            theme="dark"
+            className="transparent"
             style={{lineHeight:"64px", textAlign:"end", borderBottom: "0px"}}
             defaultSelectedKeys={["home"]}
         >
             <Menu.Item key="home">Home</Menu.Item>
             <Menu.Item key="portfolio">Portfolio</Menu.Item>
+            <Menu.Item key="creativity">Creativity</Menu.Item>
         </Menu>
     </div>
 )
