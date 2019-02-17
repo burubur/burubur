@@ -1,0 +1,21 @@
+.footer-content {
+    background: transparent;
+    border: 0;
+}
+
+.footer-box {
+
+}
+
+.footer-item {
+    padding: 5px 0;
+}
+
+.footer-item-label {
+    font-weight: bold;
+}
+
+.footer-item-list {
+    list-style: none;
+    padding-left: 0;
+}
