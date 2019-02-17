@@ -17,6 +17,11 @@ const Brand = () => (
     </div>
 )
 
+const menuStyle = {
+    borderBottom: "2px solid #ee9ca7",
+    color: "#777"
+}
+
 const Menus = () => (
     <div>
         <Menu
@@ -25,9 +30,9 @@ const Menus = () => (
             style={{lineHeight:"64px", textAlign:"end", borderBottom: "0px"}}
             defaultSelectedKeys={["home"]}
         >
-            <Menu.Item key="home">Home</Menu.Item>
-            {/* <Menu.Item key="portfolio">Portfolio</Menu.Item>
-            <Menu.Item key="creativity">Creativity</Menu.Item> */}
+            <Menu.Item key="home" style={menuStyle}>Home</Menu.Item>
+            {/* <Menu.Item key="portfolio" style={menuStyle}>Portfolio</Menu.Item>
+            <Menu.Item key="creativity" style={menuStyle}>Creativity</Menu.Item> */}
         </Menu>
     </div>
 )
