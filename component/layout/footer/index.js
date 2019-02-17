@@ -5,17 +5,17 @@ import "./index.css"
 class Project extends Component {
     state = {
         projects: [
+            // {
+            //     label: "Mikrolokal",
+            //     url: "project-anu"
+            // },
+            // {
+            //     label: "Laundry Profile",
+            //     url: "project-anu"
+            // },
             {
-                label: "Mikrolokal",
-                url: "project-anu"
-            },
-            {
-                label: "Laundry Profile",
-                url: "project-anu"
-            },
-            {
-                label: "My Portfolio Website",
-                url: "project-anu"
+                label: "Portfolio",
+                url: "https://github.com/burubur/burubur.com"
             },
         ]
     }
@@ -26,7 +26,7 @@ class Project extends Component {
                     Projects
                 </span>
                 <ul className="footer-item-list">
-                    {this.state.projects.map(item => <li key={item.label}>{item.label}</li>)}
+                    {this.state.projects.map(item => <li key={item.label}><a href={item.url} target="_blank">{item.label}</a></li>)}
                 </ul>
             </div>
         )
@@ -36,22 +36,22 @@ class Project extends Component {
 class Creativity extends Component {
     state = {
         creativities: [
-            {
-                label: "Music",
-                uri: "cr-music"
-            },
-            {
-                label: "Film",
-                uri: "cr-film"
-            },
-            {
-                label: "WoodWorking",
-                uri: "cr-wood"
-            },
-            {
-                label: "CakeWorking",
-                uri: "cr-cake"
-            },
+            // {
+            //     label: "Music",
+            //     uri: "cr-music"
+            // },
+            // {
+            //     label: "Film",
+            //     uri: "cr-film"
+            // },
+            // {
+            //     label: "WoodWorking",
+            //     uri: "cr-wood"
+            // },
+            // {
+            //     label: "CakeWorking",
+            //     uri: "cr-cake"
+            // },
         ]
     }
     render() {
@@ -71,18 +71,18 @@ class Creativity extends Component {
 class MetaLink extends Component {
     state = {
         links: [
-            {
-                label: "works",
-                url: "",
-            },
-            {
-                label: "contact me",
-                url: "",
-            },
-            {
-                label: "tools I use",
-                url: "",
-            }
+            // {
+            //     label: "works",
+            //     url: "",
+            // },
+            // {
+            //     label: "contact me",
+            //     url: "",
+            // },
+            // {
+            //     label: "tools I use",
+            //     url: "",
+            // }
         ]
     }
     render() {
@@ -104,17 +104,17 @@ class SocialMedia extends Component {
         medias: [
             {
                 name: "Facebook",
-                url: "facebook.com/burhanmubarok",
+                url: "https://web.facebook.com/burhanmubarok",
                 icon: "facebook"
             },
             {
                 name: "Twitter",
-                url: "twitter.com/burhanmubarok",
+                url: "https://twitter.com/burhanmubarok",
                 icon: "twitter"
             },
             {
                 name: "Linkedin",
-                url: "linkedin.com/burhanmubarok",
+                url: "https://www.linkedin.com/in/burhan-mubarok-66289a111",
                 icon: "linkedin"
             }
         ]
@@ -130,7 +130,7 @@ class SocialMedia extends Component {
                     Social Media
                 </span>
                 <ul className="footer-item-list">
-                    {this.state.medias.map(item => <li key={item.name}><Icon type={item.icon} /> {item.name}</li>)}
+                    {this.state.medias.map(item => <li key={item.name}><a href={item.url} target="_blank"><Icon type={item.icon} /> {item.name}</a></li>)}
                 </ul>
             </div>
         )
