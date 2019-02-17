@@ -26,8 +26,8 @@ const Menus = () => (
             defaultSelectedKeys={["home"]}
         >
             <Menu.Item key="home">Home</Menu.Item>
-            <Menu.Item key="portfolio">Portfolio</Menu.Item>
-            <Menu.Item key="creativity">Creativity</Menu.Item>
+            {/* <Menu.Item key="portfolio">Portfolio</Menu.Item>
+            <Menu.Item key="creativity">Creativity</Menu.Item> */}
         </Menu>
     </div>
 )
