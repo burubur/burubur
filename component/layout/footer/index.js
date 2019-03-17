@@ -5,25 +5,33 @@ import "./index.css"
 class Project extends Component {
     state = {
         projects: [
+            {
+                label: "My Web Portfolio",
+                url: "https://github.com/burubur/burubur.com"
+            },
+            {
+                label: "Election (Random Name Picker)",
+                url: "https://github.com/burubur/burubur.com"
+            },
+            {
+                label: "Meal Planner",
+                url: "https://github.com/burubur/burubur.com"
+            },
+            // {
+            //     label: "Doorprize",
+            //     url: "https://github.com/burubur/burubur.com"
+            // },
             // {
             //     label: "Mikrolokal",
             //     url: "project-anu"
             // },
-            // {
-            //     label: "Laundry Profile",
-            //     url: "project-anu"
-            // },
-            {
-                label: "Portfolio",
-                url: "https://github.com/burubur/burubur.com"
-            },
         ]
     }
     render () {
         return (
             <div>
                 <span className="footer-item-label">
-                    Projects
+                    Open Projects
                 </span>
                 <ul className="footer-item-list">
                     {this.state.projects.map(item => <li key={item.label}><a href={item.url} target="_blank">{item.label}</a></li>)}
