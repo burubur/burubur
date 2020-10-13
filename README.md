@@ -1,6 +1,6 @@
 # Burhan Mubarok
 
-![img](https://storage.googleapis.com/burubur/static/undraw_working_from_anywhere_ub67.svg)
+![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
 
 ## 👋 Hey, I am Burhan Mubarok
 
