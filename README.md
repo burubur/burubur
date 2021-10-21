@@ -1,12 +1,12 @@
-# Burhan Mubarok
-
 ![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
 
 <h2 align="center">
     👋 Hey, I am Burhan Mubarok
 </h2>
 
+<p align="center">
 I am an ordinary Indonesian.
+</p>
 
 <p align="center">
     <i>You can find and contact me:</i>
