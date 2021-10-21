@@ -1,15 +1,17 @@
-![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
+<p align="center">
+    ![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
+</p>
 
 <h2 align="center">
-    👋 Hey, I am Burhan Mubarok
+    Hi, Human 👋
 </h2>
 
 <p align="center">
-I am an ordinary Indonesian.
+    <b>I'm Burhan Mubarok, ordinary Indonesian and currently helping Gojek Engineering.</b>
 </p>
 
 <p align="center">
-    <i>You can find and contact me:</i>
+    <i>You can find and contact me here:</i>
     <br/><br/>
     <a href="https://twitter.com/burhanmubarok" target="_blank">
         <img src="https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&style=for-the-badge&logoColor=white" alt="Twitter Badge" />
@@ -19,7 +21,9 @@ I am an ordinary Indonesian.
     </a>
 </p>
 
-## My GitHub stats
+<h2 align="center">
+    My GitHub stats
+</h2>
 
 <p align="center">
     <p align="center">
