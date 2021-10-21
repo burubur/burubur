@@ -2,13 +2,26 @@
 
 ![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
 
-## 👋 Hey, I am Burhan Mubarok
+<h2 align="center">
+    👋 Hey, I am Burhan Mubarok
+</h2>
 
-I am an ordinary Indonesian who have a grit for a specific thing that I am focusing.
+I am an ordinary Indonesian.
 
-<details>
-    <summary>My GitHub stats</summary>
-    <br />
+<p align="center">
+    <i>You can find and contact me:</i>
+    <br/><br/>
+    <a href="https://twitter.com/burhanmubarok" target="_blank">
+        <img src="https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&style=for-the-badge&logoColor=white" alt="Twitter Badge" />
+    </a>
+    <a href="https://www.linkedin.com/in/burhan-mubarok-66289a111" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn Badge" />
+    </a>
+</p>
+
+## My GitHub stats
+
+<p align="center">
     <p align="center">
         <img src="https://github-profile-trophy.vercel.app/?username=burubur&theme=darkhub&margin-w=15" alt="Trophies GitHub" />
     </p>
@@ -24,4 +37,4 @@ I am an ordinary Indonesian who have a grit for a specific thing that I am focus
     <p align="center">
         <img src="https://activity-graph.herokuapp.com/graph?username=burubur&theme=xcode&bg_color=151515" alt="Activity Graph" />
     </p>
-</details>
+</p>
