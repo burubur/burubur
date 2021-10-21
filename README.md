@@ -1,5 +1,5 @@
 <p align="center">
-    ![img](https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png)
+    <img src="https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png" alt="banner-image") />
 </p>
 
 <h2 align="center">
