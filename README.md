@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://storage.googleapis.com/burubur/static/undraw_Freelancer_re_irh4.png" alt="banner-image") />
+    <img src="https://github.com/burubur/burubur/assets/8677498/e6368770-0ca1-4bc8-8fdd-68f8a114a38d" alt="banner-image") />
 </p>
 
 <h2 align="center">
