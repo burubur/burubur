@@ -7,7 +7,7 @@
 </h2>
 
 <p align="center">
-    <b>I'm Burhan Mubarok, ordinary Indonesian and currently helping Gojek Engineering.</b>
+    <b>I'm Burhan Mubarok, ordinary Indonesian and currently helping Agoda Engineering.</b>
 </p>
 
 <p align="center">
